@@ -30,8 +30,8 @@ import java.util.List;
 import java.util.Map;
 
 public class DatabaseAccess {
-    private static final String COGNITO_POOL_ID = "ap-south-1:3de59513-0e70-476f-894c-c4f96712df28";
-    private static final Regions MY_REGION = Regions.AP_SOUTH_1;
+    private static final String COGNITO_POOL_ID = "##";
+    private static final Regions MY_REGION = ##;
     private AmazonDynamoDBClient dbClient;
     private Table dbTable;
     private Context context;
